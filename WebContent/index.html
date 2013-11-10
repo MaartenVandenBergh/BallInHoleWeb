@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Ball In Hole</title>
+		<link rel="stylesheet" type="text/css" href="css/styleSheetPortrait.css">
+		<script src="javascript/main.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="counter">
+				00:00:00
+			</div>
+			<button id="optionsButton" onclick="showScoreboard()">...</button>
+			<div id="drawPanel">
+			<canvas id="surface" width="500" height="500">
+			</canvas>
+			</div>
+			<div id="controls">​
+				<button  id="playPauseButton" class="controlButton left" onclick="playPauseButtonAction()"><img id="playPauseButtonImg" src="res/images/ic_play.png" height="20px" width="20px"></button>
+				<button id="stopButton" class="controlButton right" onclick="stopButtonAction()"><img id="stopButtonImg"src="res/images/ic_stop.png" height="20px" width="20px"></button>
+			</div>
+		</div>
+	</body>
+</html>
